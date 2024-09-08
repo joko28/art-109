@@ -1,0 +1,134 @@
+/*
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+/* GLOBAL STYLES 
+------------------------------------*/
+/* 
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    background: #f6f6f6; 
+    margin: 0;
+}
+
+/* links */
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+footer a {
+    color: #bcaa96;
+}
+footer a:hover {
+    color: #3c8453;
+}
+.btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 900px;
+}
+
+
+/* HOME
+------------------------------------*/
+.home {
+    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.home .content-wrapper {
+    flex: 1 0 auto;
+}
+.content-bg {
+    background: rgb(255 255 255 / 0.9);
+    padding: 30px;
+}
+
+
+/* RESUME
+------------------------------------*/
+.resume header::before {
+    background: url(../images/bg-home-office-studio.jpg) center;
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 375px;
+}
+.resume-section {
+    margin-bottom: 50px;
+}
+.resume-section h2 {
+    border-bottom: 2px dashed #d3d4d6;
+}
+.download-link {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+
+
+/* Profile
+------------------------------------*/
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Projects
+------------------------------------*/
+
+/* Work Experience
+------------------------------------*/
+
+/* Education
+------------------------------------*/
+
+
+/* FOOTER
+------------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block;
+}
+.socials img {
+    width: 32px;
+}
