@@ -1,0 +1,13 @@
+COLOR PALETTE
+
+Pink Flare	#DFBFCD
+(light pink)
+
+Steel Blue	#4E81B5
+(medium blue)
+
+Blue Bell	#929CC3
+(light purple)
+
+Trendy Pink	#9873A1
+(purplish pink)
