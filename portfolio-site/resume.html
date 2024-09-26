@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Resume | Jozey Nguyen | Digital Artist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Oswald:wght@200..700&family=Raleway:wght@400;900&family=Unica+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="js/slideInProjects.js"></script> -->
   </head>
   <body class="resume">
     <a class="btn download-link" href="jnguyen-resume.pdf">Download PDF</a>
@@ -13,7 +20,7 @@
       <div class="content-wrapper">
         <!-- Start content edits below this line. -->
         <h1>Jozey Nguyen</h1>
-        <h2>Digital Artist</h2>
+        <h2>Digital Artist + Content Creator</h2>
 
         <!-- End content edits here. -->
       </div>
@@ -42,63 +49,64 @@
         </p>
 
         <!-- To add more items, copy this whole <section></section> block-->
-        <section class="project-item">
-          <img
-            src="images/project-website-500px.jpg"
-            srcset="images/project-website-1000px.jpg 2x"
-            alt="Project Website"
-            width=""
-            height=""
-          />
-          <h3>Project Website</h3>
-          <p>
-            Summary or description of the project and/or your role in it. Add as
-            many paragraphs as you need.
-          </p>
-          <!-- link to project -->
-          <a class="btn" href="#" target="_blank">Link</a>
-          <!-- additional links, e.g. newsletter -->
-          <a class="btn" href="#" target="_blank">Another link</a>
-        </section>
+        <div class="project-wrapper">
+          <section class="project-item">
+            <img
+              src="images/project-website-500px.jpg"
+              srcset="images/project-website-1000px.jpg 2x"
+              alt="Project Website"
+              width=""
+              height=""
+            />
+            <h3>Project Website</h3>
+            <p>
+              Summary or description of the project and/or your role in it. Add
+              as many paragraphs as you need.
+            </p>
+            <!-- link to project -->
+            <a class="btn" href="#" target="_blank">Link</a>
+            <!-- additional links, e.g. newsletter -->
+            <a class="btn" href="#" target="_blank">Another link</a>
+          </section>
 
-        <section class="project-item">
-          <img
-            src="images/project-branding-500px.jpg"
-            srcset="images/project-branding-1000px.jpg 2x"
-            alt="Project Branding"
-            width=""
-            height=""
-          />
-          <h3>Project Branding</h3>
-          <p>
-            Summary or description of the project and/or your role in it. Add as
-            many paragraphs as you need.
-          </p>
-          <!-- link to project -->
-          <a href="#" target="_blank">Link</a>
-          <!-- additional links, e.g. newsletter -->
-          <a href="#" target="_blank">Another link</a>
-        </section>
+          <section class="project-item">
+            <img
+              src="images/project-branding-500px.jpg"
+              srcset="images/project-branding-1000px.jpg 2x"
+              alt="Project Branding"
+              width=""
+              height=""
+            />
+            <h3>Project Branding</h3>
+            <p>
+              Summary or description of the project and/or your role in it. Add
+              as many paragraphs as you need.
+            </p>
+            <!-- link to project -->
+            <a href="#" target="_blank">Link</a>
+            <!-- additional links, e.g. newsletter -->
+            <a href="#" target="_blank">Another link</a>
+          </section>
 
-        <section class="project-item">
-          <img
-            src="images/project-biz-cards-500px.jpg"
-            srcset="images/project-biz-cards-1000px.jpg 2x"
-            alt="Project Biz cards"
-            width=""
-            height=""
-          />
-          <h3>Project Biz Cards</h3>
-          <p>
-            Summary or description of the project and/or your role in it. Add as
-            many paragraphs as you need.
-          </p>
-          <!-- link to project -->
-          <a href="#" target="_blank">Link</a>
-          <!-- additional links, e.g. newsletter -->
-          <a href="#" target="_blank">Another link</a>
-        </section>
-
+          <section class="project-item">
+            <img
+              src="images/project-biz-cards-500px.jpg"
+              srcset="images/project-biz-cards-1000px.jpg 2x"
+              alt="Project Biz cards"
+              width=""
+              height=""
+            />
+            <h3>Project Biz Cards</h3>
+            <p>
+              Summary or description of the project and/or your role in it. Add
+              as many paragraphs as you need.
+            </p>
+            <!-- link to project -->
+            <a href="#" target="_blank">Link</a>
+            <!-- additional links, e.g. newsletter -->
+            <a href="#" target="_blank">Another link</a>
+          </section>
+        </div>
         <!-- End content edits here. -->
       </section>
 
@@ -140,7 +148,7 @@
         <h2>Education</h2>
 
         <!-- To add more items, copy this whole <section></section> block -->
-        <section>
+        <section class="education-item">
           <h3>San Jose State University - San Jose</h3>
           <p>
             Major in Digital Media Arts & Minor in Architectural Studies,
@@ -149,7 +157,7 @@
           <p>Summary or accomplishments.</p>
         </section>
 
-        <section>
+        <section class="education-item">
           <h3>Independence High School - San Jose</h3>
           <p>AVID Program, 2015-2019</p>
           <p>
