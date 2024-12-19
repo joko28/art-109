@@ -276,3 +276,17 @@ footer {
     padding: 10px;
   }
 }
+
+/* Brushstoke */
+.brushstroke {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: url('images/galaxy-brushstroke.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  transition: width 0.1s, height 0.1s;
+}
