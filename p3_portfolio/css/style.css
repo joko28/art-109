@@ -93,7 +93,7 @@ footer a:hover {
 /* HOME
 ---------------------------------------- */
 .home {
-  background: url(../images/bg-home-office-studio.jpg) no-repeat;
+  background: url(../images/bg-sunset-ocean.jpg) no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ footer a:hover {
 /* RESUME
 ---------------------------------------- */
 .resume header::before {
-  background: url(../images/bg-home-office-studio.jpg) center;
+  background: url(../images/bg-gradient.jpg) center;
   background-size: cover;
   content: "";
   display: block;
